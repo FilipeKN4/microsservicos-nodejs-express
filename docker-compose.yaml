@@ -6,7 +6,7 @@
       # localização do Dockerfile. Nesse caso está na mesma pasta do docker-compose.yaml
       # Essas definições se referem ao comando "docker run -p 3000:3000 -d microsservicos-node-express"
       build: .
-      command: npm start
+      # command: npm start
       ports: 
         - "3000:3000"
       # Definir a pasta do conteiner que receberá todos os arquivos alterados no projeto
