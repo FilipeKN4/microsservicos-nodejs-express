@@ -2,7 +2,7 @@
 FROM node:alpine
 
 # Definir diretório principal da aplicação no container
-WORKDIR /usr/app 
+WORKDIR /usr/app
 
 
 # Copiar todos os arquivos gerados após o "npm install" para dentro do container
